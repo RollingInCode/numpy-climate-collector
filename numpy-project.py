@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('temperature_data.csv')
+df = pd.read_csv('stpete-temp-data.csv')
 years = df['YEAR'].values
 max_temp = df['MAX TEMP'].values
 day = df['DAY'].values
